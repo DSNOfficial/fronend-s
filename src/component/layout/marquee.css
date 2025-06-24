@@ -1,0 +1,22 @@
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    background: rgb(113 126 235 / 12%);
+    padding: 10px;
+    border-radius: 5px
+}
+
+.marquee-content {
+    display: inline-block;
+    animation: scroll-left 60s linear infinite
+}
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(100%)
+    }
+
+    to {
+        transform: translateX(-100%)
+    }
+}

@@ -1,0 +1,11 @@
+.viewer-count-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .viewer-count-number {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  

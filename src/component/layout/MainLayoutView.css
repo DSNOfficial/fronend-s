@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden
+}
+
+.desktop-menu {
+    display: none
+}
+
+@media (min-width:768px) {
+    .desktop-menu {
+        display: block
+    }
+
+    .menu-toggle {
+        display: none
+    }
+}
+
+.menu-toggle {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #1890ff;
+    color: #fff;
+    border: none;
+    font-size: 18px
+}
+
+@media (max-width:767px) {
+    .content {
+        padding: 15px;
+        font-size: 14px
+    }
+
+    .header {
+        font-size: 18px;
+        padding: 10px
+    }
+
+    .footer {
+        font-size: 12px;
+        padding: 10px
+    }
+
+    .logo img {
+        width: 100px
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .content {
+        padding: 20px;
+        font-size: 16px
+    }
+
+    .header {
+        font-size: 20px
+    }
+
+    .footer {
+        font-size: 14px
+    }
+
+    .logo img {
+        width: 150px
+    }
+}
+
+@media (min-width:1025px) and (max-width:1366px) {
+    .content {
+        padding: 25px;
+        font-size: 18px
+    }
+
+    .header {
+        font-size: 22px
+    }
+
+    .footer {
+        font-size: 16px
+    }
+
+    .logo img {
+        width: 200px
+    }
+}
+
+@media (min-width:1367px) {
+    .content {
+        padding: 30px;
+        font-size: 20px
+    }
+
+    .header {
+        font-size: 24px
+    }
+
+    .footer {
+        font-size: 18px
+    }
+
+    .logo img {
+        width: 250px
+    }
+}
+
+body,
+.desktop-menu,
+.menu-toggle,
+.content {
+    transition: all 0.3s ease-in-out
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out
+}
+
+.content {
+    padding: 10px
+}
+
+.header,
+.footer {
+    padding: 20px;
+    background-color: #f8f8f8;
+    text-align: center
+}
+
+.header {
+    font-size: 24px
+}
+
+.footer {
+    font-size: 14px
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out
+}
+
+img:hover {
+    transform: scale(1.05)
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column
+}
+
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: marquee 60s linear infinite
+}
+
+.marquee-content {
+    display: inline-block;
+    padding-left: 100%;
+    white-space: nowrap
+}
+
+.logo-image {
+    transition: transform 0.3s ease-in-out
+}
+
+.logo-image.animated {
+    transform: scale(1.1)
+}
+
+
+
+@font-face{
+    font-family: KhmerOSSiemReap;
+    src:url(../../../public/KhmerOSSiemreap.ttf);
+  }
+  .KhmerOSSiemReap{
+    font-family:KhmerOSSiemReap;
+  }
+
+
