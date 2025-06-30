@@ -384,7 +384,7 @@ const UserPage = () => {
         />
       </Col>
       <Col span={16}>
-        <p><strong>ឈ្មោះពេញ112222:</strong> {viewData.firstName} {viewData.lastName}</p>
+        <p><strong>ឈ្មោះពេញ:</strong> {viewData.firstName} {viewData.lastName}</p>
         <p><strong>អ៊ីម៉ែល:</strong> {viewData.email}</p>
         <p><strong>លេខទូរស័ព្ទ:</strong> {viewData.mobile}</p>
         <p><strong>ការអនុញ្ញាត:</strong> {role.find(r => r.id === viewData.RoleId)?.name || "N/A"}</p>
