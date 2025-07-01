@@ -54,8 +54,8 @@ export const formatDateServer = (date) => {
 export const Config = {
 
 
-    base_url :"https:api.tsnh.online/api/",
-    image_path :"http://localhost:81/project/tsnhss/public_file/images/",
+    base_url :"https://api.tsnh.online/api/",
+    image_path :"https://cdn.tsnh.online/",
 
    // image_path:"",
     version: "",
