@@ -225,7 +225,7 @@ const UserPage = () => {
           },
          {
   key: "Action",
-  title: "កែប្រែ / លុប​ / ប្តូរពាក្យសម្ងាត់",
+  title: "កែប្រែ / លុប​/ ប្តូរពាក្យសម្ងាត់",
   render: (value, item) => (
     <Space>
       <Button onClick={() => onClickBtnView(item)} type="default"><EyeOutlined /> មើល</Button>
