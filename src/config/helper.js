@@ -55,7 +55,7 @@ export const Config = {
 
 
     base_url :"https://api.tsnh.online/api/",
-    image_path :"https://cdn.tsnh.online/",
+    image_path :"https://cdn.tsnh.online/uploads/",
 
    // image_path:"",
     version: "",
